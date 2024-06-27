@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="h-[65vh] flex flex-col justify-between">
+    <div className="h-[65vh] border-red flex flex-col justify-between">
       <div className="h-full leading-tight justify-center items-center flex flex-col">
         <p className="text-[4vh] tracking-tight font-medium">Let's work together.</p>
         <p className="text-[4vh] text-[#7a7a7a] cursor-pointer hover:text-opacity-50 tracking-tight font-medium">

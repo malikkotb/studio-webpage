@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <main>
       <section className="h-screen flex justify-center items-center">
-        <div>
-          <p className="font-medium border-red leading-tight text-[8vh] w-[75vw] text-center">
+        <div className="">
+          <p className="font-medium border-red leading-tight text-[5vw] w-[75vw] text-center">
             A brand and product <br /> designer working with
             <br /> clients globally
           </p>

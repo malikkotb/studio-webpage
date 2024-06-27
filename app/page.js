@@ -1,3 +1,4 @@
+import Gallery from "@/components/Gallery";
 import Icon from "@/components/Icon";
 import { motion } from "framer-motion";
 export default function Home() {
@@ -5,7 +6,7 @@ export default function Home() {
     <main>
       <section className="h-screen flex justify-center items-center">
         <div>
-          <p className="border font-medium border-red-500 leading-tight text-[8vh] w-[75vw] text-center">
+          <p className="font-medium leading-tight text-[8vh] w-[75vw] text-center">
             A brand and product <br /> designer working with
             <br /> clients globally
           </p>
@@ -17,8 +18,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="h-screen bg-red-300"></section>
-      <section className="h-screen bg-red-300"></section>
+      <Gallery />
+      {/* <section className="h-[200vh] bg-green-200"></section> */}
     </main>
   );
 }

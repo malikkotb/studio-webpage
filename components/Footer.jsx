@@ -9,7 +9,7 @@ export default function Footer() {
           Get in touch.
         </p>
       </div>
-      <div className="flex justify-between p-8 border">
+      <div className="flex justify-between p-8">
         <div className="flex gap-2">
           <div className="rounded-full p-3 bg-red-500"></div>
           <div>Malik Kotb 2024</div>

@@ -12,6 +12,8 @@ export default function Gallery() {
       <GalleryCell src={"/1.jpg"} />
       <GalleryCell src={"/1.jpg"} />
       <GalleryCell src={"/1.jpg"} />
+      <GalleryCell src={"/1.jpg"} />
+      <GalleryCell src={"/1.jpg"} />
     </div>
   );
 }

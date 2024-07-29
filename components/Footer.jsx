@@ -7,7 +7,8 @@ export default function Footer() {
     <div className="h-[65vh] border-red flex flex-col justify-between">
       <motion.div
         initial={{ y: 100, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
+        // animate={{ y: 0, opacity: 1 }}
+        whileInView={{ opacity: 1, y: 0}}
         transition={{ duration: 0.5, delay: 0.2 }}
         className="h-full leading-tight justify-center items-center flex flex-col"
       >

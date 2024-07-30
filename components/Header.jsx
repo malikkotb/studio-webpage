@@ -16,26 +16,4 @@ export default function Header() {
   );
 }
 
-// HeroSection.js
-import React from 'react';
-import { motion } from 'framer-motion';
-import './HeroSection.css'; // You can style your component using this CSS file
-
-const HeroSection = () => {
-    return (
-        <div className="hero-container">
-            <motion.div
-                className="hero-content"
-                initial={{ x: '100%' }}
-                animate={{ x: '0%' }}
-                transition={{ type: 'tween', duration: 1 }}
-            >
-                <h1>Welcome to My Website</h1>
-                <p>This is the hero section with horizontal scroll effect.</p>
-            </motion.div>
-        </div>
-    );
-};
-
-export default HeroSection;
 
